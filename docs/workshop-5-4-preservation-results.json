@@ -1,0 +1,7 @@
+{
+  "checkedAt": "2026-10-19T19:13:47.941Z",
+  "tableCount": 13,
+  "originalRecordCountsAndFingerprintsMatch": true,
+  "method": "Administrator aggregate count/MD5 snapshots of all thirteen application tables, before disposable live run and after cleanup. No row values in artifact.",
+  "cleanupVerified": true
+}

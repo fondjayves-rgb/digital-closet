@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-19T12:55:10.946Z",
+  "live": true,
+  "checks": [
+    {
+      "name": "Create two disposable accounts with real password sessions",
+      "passed": true
+    },
+    {
+      "name": "Create complete saved outfits, wear history and feedback for account one",
+      "passed": true
+    },
+    {
+      "name": "Create separate owned records for account two",
+      "passed": true
+    },
+    {
+      "name": "Manual tag confirmation still cancels queued work",
+      "passed": true
+    },
+    {
+      "name": "Direct Auth account deletion succeeds with saved outfits and history",
+      "passed": true
+    },
+    {
+      "name": "Deleting one account leaves the other account and its records intact",
+      "passed": true
+    },
+    {
+      "name": "Ordinary garment deletion invalidates saved outfit and preserves wear history",
+      "passed": true
+    }
+  ],
+  "cleanup": true
+}

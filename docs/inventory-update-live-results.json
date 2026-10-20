@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-19T18:24:31.491Z",
+  "boundary": "Live Supabase Auth, database, private Storage and actual Express routes. No browser, email-delivery or OpenAI calls.",
+  "checks": [
+    {
+      "name": "Two disposable real Auth accounts and password sessions",
+      "passed": true
+    },
+    {
+      "name": "Authenticated capability and curated inspiration endpoints",
+      "passed": true
+    },
+    {
+      "name": "Reviewed text inventory, unknown metadata, grouped quantities and collections",
+      "passed": true
+    },
+    {
+      "name": "Other-account fixture remains isolated",
+      "passed": true
+    },
+    {
+      "name": "Explicit Favorites persistence and cross-account rejection",
+      "passed": true
+    },
+    {
+      "name": "Settings persist optional gender and default occasion for the owner",
+      "passed": true
+    },
+    {
+      "name": "No-photo analysis rejected at API and database enqueue boundaries",
+      "passed": true
+    },
+    {
+      "name": "Private photo attachment preserves inventory ID and review status",
+      "passed": true
+    },
+    {
+      "name": "Server-side filtering and pagination with collection metadata",
+      "passed": true
+    },
+    {
+      "name": "Provided inventory preview is read-only and source-keyed",
+      "passed": true
+    },
+    {
+      "name": "Concurrent import is idempotent and deletion leaves a ledger tombstone",
+      "passed": true
+    },
+    {
+      "name": "Linking adds collections without replacing owned metadata",
+      "passed": true
+    },
+    {
+      "name": "Missing-component templates stay separate and can be resolved",
+      "passed": true
+    },
+    {
+      "name": "Flexible manual outfit saves only with explicit completeness",
+      "passed": true
+    },
+    {
+      "name": "Atomic outfit edit retains wear history and feedback",
+      "passed": true
+    },
+    {
+      "name": "AI save validation accepts explicit reviewed sets, rejects unknown coverage",
+      "passed": true
+    },
+    {
+      "name": "Cross-owner collection/template/import associations are rejected",
+      "passed": true
+    }
+  ],
+  "cleanup": true
+}

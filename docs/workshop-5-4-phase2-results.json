@@ -1,0 +1,1133 @@
+{
+  "phase": "Workshop5.4 next high-risk testing phase",
+  "recordedAt": "2026-10-19T19:15:50.982Z",
+  "regression": {
+    "passed": true,
+    "total": 65,
+    "failed": 0,
+    "files": 7,
+    "boundary": "Actual Express/PGlite/RLS, simulated Auth/Storage/AI",
+    "newScenarios": 13
+  },
+  "browser": {
+    "passed": true,
+    "total": 92,
+    "failed": 0,
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "newScenariosPerWidth": 7,
+    "checks": [
+      {
+        "name": "five destinations, dated curated sources, honest illustrations and inspiration retry",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "reviewed text inventory, upload attachment, favorite persistence and failed favorite recovery",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "manual builder selects replaces removes saves edits and retains wear history",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "provided wardrobe preview confirmation repeat safety and editable missing-component templates",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Settings persist optional gender style and occasion and prefill both builders",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "full inventory pagination metadata filters and clear controls remain usable",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "five destinations, dated curated sources, honest illustrations and inspiration retry",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "reviewed text inventory, upload attachment, favorite persistence and failed favorite recovery",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "manual builder selects replaces removes saves edits and retains wear history",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "provided wardrobe preview confirmation repeat safety and editable missing-component templates",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Settings persist optional gender style and occasion and prefill both builders",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "full inventory pagination metadata filters and clear controls remain usable",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "five destinations, dated curated sources, honest illustrations and inspiration retry",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "reviewed text inventory, upload attachment, favorite persistence and failed favorite recovery",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "manual builder selects replaces removes saves edits and retains wear history",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "provided wardrobe preview confirmation repeat safety and editable missing-component templates",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Settings persist optional gender style and occasion and prefill both builders",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "full inventory pagination metadata filters and clear controls remain usable",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "five destinations, dated curated sources, honest illustrations and inspiration retry",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "reviewed text inventory, upload attachment, favorite persistence and failed favorite recovery",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "manual builder selects replaces removes saves edits and retains wear history",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "provided wardrobe preview confirmation repeat safety and editable missing-component templates",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Settings persist optional gender style and occasion and prefill both builders",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "full inventory pagination metadata filters and clear controls remain usable",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 overlapping Favorites keep each in-flight card disabled until its own request settles",
+        "file": "high-risk.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 account constraints, confirmation notice, invalid credentials and busy duplicate recovery use isolated Auth",
+        "file": "high-risk.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 sign-out error retains session and retry removes protected views",
+        "file": "high-risk.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 manual picker enforces zero one twenty and twenty-one selections with replacement and reconfirmation",
+        "file": "high-risk.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 every feedback rating and maximum note persist on reopen while invalid wear dates and duplicate day are rejected",
+        "file": "high-risk.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 destructive confirmations retain on cancel, retry failure, preserve wardrobe and expose unavailable looks in history",
+        "file": "high-risk.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 analysis checking queued processing retry failure correction and explicit proposal reapply stay under human review",
+        "file": "high-risk.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 overlapping Favorites keep each in-flight card disabled until its own request settles",
+        "file": "high-risk.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 account constraints, confirmation notice, invalid credentials and busy duplicate recovery use isolated Auth",
+        "file": "high-risk.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 sign-out error retains session and retry removes protected views",
+        "file": "high-risk.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 manual picker enforces zero one twenty and twenty-one selections with replacement and reconfirmation",
+        "file": "high-risk.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 every feedback rating and maximum note persist on reopen while invalid wear dates and duplicate day are rejected",
+        "file": "high-risk.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 destructive confirmations retain on cancel, retry failure, preserve wardrobe and expose unavailable looks in history",
+        "file": "high-risk.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 analysis checking queued processing retry failure correction and explicit proposal reapply stay under human review",
+        "file": "high-risk.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 overlapping Favorites keep each in-flight card disabled until its own request settles",
+        "file": "high-risk.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 account constraints, confirmation notice, invalid credentials and busy duplicate recovery use isolated Auth",
+        "file": "high-risk.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 sign-out error retains session and retry removes protected views",
+        "file": "high-risk.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 manual picker enforces zero one twenty and twenty-one selections with replacement and reconfirmation",
+        "file": "high-risk.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 every feedback rating and maximum note persist on reopen while invalid wear dates and duplicate day are rejected",
+        "file": "high-risk.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 destructive confirmations retain on cancel, retry failure, preserve wardrobe and expose unavailable looks in history",
+        "file": "high-risk.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 analysis checking queued processing retry failure correction and explicit proposal reapply stay under human review",
+        "file": "high-risk.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 overlapping Favorites keep each in-flight card disabled until its own request settles",
+        "file": "high-risk.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 account constraints, confirmation notice, invalid credentials and busy duplicate recovery use isolated Auth",
+        "file": "high-risk.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 sign-out error retains session and retry removes protected views",
+        "file": "high-risk.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 manual picker enforces zero one twenty and twenty-one selections with replacement and reconfirmation",
+        "file": "high-risk.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 every feedback rating and maximum note persist on reopen while invalid wear dates and duplicate day are rejected",
+        "file": "high-risk.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 destructive confirmations retain on cancel, retry failure, preserve wardrobe and expose unavailable looks in history",
+        "file": "high-risk.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Phase2 analysis checking queued processing retry failure correction and explicit proposal reapply stay under human review",
+        "file": "high-risk.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "responsive closet, readable text, keyboard focus and dialog focus restoration",
+        "file": "quality.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "refresh shows progress and recovers unavailable photos",
+        "file": "quality.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "upload rejects replacement files and recovers from upload/status failures without losing edits",
+        "file": "quality.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "initial connection failure is distinct from an empty closet and has a working retry",
+        "file": "quality.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "empty screens, planner validation and outfit request retry are recoverable",
+        "file": "quality.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "responsive closet, readable text, keyboard focus and dialog focus restoration",
+        "file": "quality.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "refresh shows progress and recovers unavailable photos",
+        "file": "quality.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "upload rejects replacement files and recovers from upload/status failures without losing edits",
+        "file": "quality.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "initial connection failure is distinct from an empty closet and has a working retry",
+        "file": "quality.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "empty screens, planner validation and outfit request retry are recoverable",
+        "file": "quality.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "responsive closet, readable text, keyboard focus and dialog focus restoration",
+        "file": "quality.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "refresh shows progress and recovers unavailable photos",
+        "file": "quality.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "upload rejects replacement files and recovers from upload/status failures without losing edits",
+        "file": "quality.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "initial connection failure is distinct from an empty closet and has a working retry",
+        "file": "quality.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "empty screens, planner validation and outfit request retry are recoverable",
+        "file": "quality.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "responsive closet, readable text, keyboard focus and dialog focus restoration",
+        "file": "quality.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "refresh shows progress and recovers unavailable photos",
+        "file": "quality.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "upload rejects replacement files and recovers from upload/status failures without losing edits",
+        "file": "quality.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "initial connection failure is distinct from an empty closet and has a working retry",
+        "file": "quality.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "empty screens, planner validation and outfit request retry are recoverable",
+        "file": "quality.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "renders the account screen with a responsive layout and usable keyboard controls",
+        "file": "setup.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "never presents an unauthenticated closet as owned inventory",
+        "file": "setup.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "renders the account screen with a responsive layout and usable keyboard controls",
+        "file": "setup.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "never presents an unauthenticated closet as owned inventory",
+        "file": "setup.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "renders the account screen with a responsive layout and usable keyboard controls",
+        "file": "setup.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "never presents an unauthenticated closet as owned inventory",
+        "file": "setup.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "renders the account screen with a responsive layout and usable keyboard controls",
+        "file": "setup.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "never presents an unauthenticated closet as owned inventory",
+        "file": "setup.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "protected screens, filtering, upload review, planning, saving, wear history and sign-out",
+        "file": "wardrobe.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "protected screens, filtering, upload review, planning, saving, wear history and sign-out",
+        "file": "wardrobe.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "protected screens, filtering, upload review, planning, saving, wear history and sign-out",
+        "file": "wardrobe.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "protected screens, filtering, upload review, planning, saving, wear history and sign-out",
+        "file": "wardrobe.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop collections survive keyboard Enter submission without blurring the field",
+        "file": "workshop.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop removing a replacement target cancels replacement and permits another selection",
+        "file": "workshop.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop collections survive keyboard Enter submission without blurring the field",
+        "file": "workshop.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop removing a replacement target cancels replacement and permits another selection",
+        "file": "workshop.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop collections survive keyboard Enter submission without blurring the field",
+        "file": "workshop.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop removing a replacement target cancels replacement and permits another selection",
+        "file": "workshop.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop collections survive keyboard Enter submission without blurring the field",
+        "file": "workshop.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop removing a replacement target cancels replacement and permits another selection",
+        "file": "workshop.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      }
+    ]
+  },
+  "live": {
+    "passed": true,
+    "total": 17,
+    "cleanup": true,
+    "boundary": "Live Supabase Auth, database, private Storage and actual Express routes. No browser, email-delivery or OpenAI calls.",
+    "report": "workshop-5-4-live-results.json"
+  },
+  "preservation": {
+    "checkedAt": "2026-10-19T19:13:47.941Z",
+    "tableCount": 13,
+    "originalRecordCountsAndFingerprintsMatch": true,
+    "method": "Administrator aggregate count/MD5 snapshots of all thirteen application tables, before disposable live run and after cleanup. No row values in artifact.",
+    "cleanupVerified": true
+  },
+  "typecheck": {
+    "passed": true
+  },
+  "productionBuild": {
+    "passed": true,
+    "knownNonFailingZodWarnings": 2
+  },
+  "hostedConfigurationChanges": 0,
+  "personalRecordsTouched": false,
+  "paidOpenAICalls": 0,
+  "caseUpdates": [
+    {
+      "id": "AUTH-04",
+      "status": "Passed",
+      "actual": "Password input remained masked; new-password/current-password autocomplete values and successful fixture sign-in verified.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario2, all four widths; docs/workshop-5-4-phase2-results.json"
+    },
+    {
+      "id": "AUTH-06",
+      "status": "Passed",
+      "actual": "Blank/malformed email and 7-character signup password prevented requests; 8 and128 accepted; 129 truncated to128; valid254-character email submitted and255 truncated.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario2, all four widths; docs/workshop-5-4-phase2-results.json"
+    },
+    {
+      "id": "AUTH-07",
+      "status": "Passed",
+      "actual": "Successful isolated signup without session displayed confirmation notice; protected navigation remained absent. No actual inbox delivery claimed.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario2, all four widths; docs/workshop-5-4-phase2-results.json"
+    },
+    {
+      "id": "AUTH-16",
+      "status": "Passed",
+      "actual": "Injected logout500 retained protected session and displayed error; retry204 returned to account screen with private navigation absent.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario3, all four widths; docs/workshop-5-4-phase2-results.json"
+    },
+    {
+      "id": "ITEM-21",
+      "status": "Passed",
+      "actual": "Owned pending-photo queue, failure/retry/proposal states exercised with fixtures; SQL/API ownership/no-photo guards and human confirmation verified. No paid model call.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario7, all four widths; docs/workshop-5-4-phase2-results.json; current local regression suite"
+    },
+    {
+      "id": "ITEM-23",
+      "status": "Passed",
+      "actual": "Dirty bottoms/teal corrections survived proposal arrival; Apply AI tags again explicitly restored tops/ivory without replacing corrected name.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario7, all four widths; docs/workshop-5-4-phase2-results.json"
+    },
+    {
+      "id": "ITEM-25",
+      "status": "Passed",
+      "actual": "Keep garment retained record; injected delete503 retained it; retry removed it, invalidated look and retained wear history.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario6, all four widths; docs/workshop-5-4-phase2-results.json; Automated Express/PGlite, tests/high-risk.test.ts scenario7; Auth/Storage/AI simulated"
+    },
+    {
+      "id": "AN-01",
+      "status": "Passed",
+      "actual": "Held first status request displayed Checking analysis while review fields remained usable.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario7, all four widths; docs/workshop-5-4-phase2-results.json"
+    },
+    {
+      "id": "AN-03",
+      "status": "Passed",
+      "actual": "Failed job exposed Retry analysis; retry reached proposal-ready state without automatic approval.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario7, all four widths; docs/workshop-5-4-phase2-results.json"
+    },
+    {
+      "id": "AN-04",
+      "status": "Passed",
+      "actual": "Corrections made before new proposal response were retained until explicit reapply; manual confirmation was still required.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario7, all four widths; docs/workshop-5-4-phase2-results.json"
+    },
+    {
+      "id": "HIST-03",
+      "status": "Passed",
+      "actual": "All five labeled rating radios saved and were checked on reopen; initially unset rating disabled save.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario5, all four widths; docs/workshop-5-4-phase2-results.json"
+    },
+    {
+      "id": "HIST-04",
+      "status": "Passed",
+      "actual": "500-character comment persisted after every reopen; UI truncated501 and API rejected501 without overwriting existing feedback.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario5, all four widths; docs/workshop-5-4-phase2-results.json; Automated Express/PGlite, tests/high-risk.test.ts scenario6; Auth/Storage/AI simulated"
+    },
+    {
+      "id": "HIST-06",
+      "status": "Passed",
+      "actual": "Cancel retained outfit; injected delete503 was retryable; confirmation removed look/history while unrelated garments remained.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario6, all four widths; docs/workshop-5-4-phase2-results.json; Automated Express/PGlite, tests/high-risk.test.ts scenario7; Auth/Storage/AI simulated"
+    },
+    {
+      "id": "HIST-07",
+      "status": "Passed",
+      "actual": "View outfit from retained history opened the saved unavailable look and disabled further wear recording.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario6, all four widths; docs/workshop-5-4-phase2-results.json"
+    },
+    {
+      "id": "VAL-07",
+      "status": "Passed",
+      "actual": "Zero selection disabled save; one and20 selections valid;21st disabled; replacement at20 allowed; removal/replacement reset confirmation. API/SQL reject0 and21.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario4, all four widths; docs/workshop-5-4-phase2-results.json; Automated Express/PGlite, tests/high-risk.test.ts scenario5; Auth/Storage/AI simulated"
+    },
+    {
+      "id": "VAL-11",
+      "status": "Passed",
+      "actual": "Captured real stored version; valid edit succeeded; stale prior version rejected with original current associations/title/wear/feedback preserved. API-level conflict behavior verified.",
+      "evidence": "Automated Express/PGlite, tests/high-risk.test.ts scenario3; Auth/Storage/AI simulated"
+    },
+    {
+      "id": "VAL-12",
+      "status": "Passed",
+      "actual": "Blank/future dates rejected in UI; malformed date rejected by API; duplicate day409; ratings1-5 and500-char note persisted, invalid ratings and501 rejected.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario5, all four widths; docs/workshop-5-4-phase2-results.json; Automated Express/PGlite, tests/high-risk.test.ts scenario6; Auth/Storage/AI simulated"
+    },
+    {
+      "id": "VAL-13",
+      "status": "Passed",
+      "actual": "Garment invalidation retained logs; outfit deletion cascaded logs/feedback only; template deletion retained inventory/tombstone; cancels and retries exercised. Foreign/repeated deletes denied.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario6, all four widths; docs/workshop-5-4-phase2-results.json; Automated Express/PGlite, tests/high-risk.test.ts scenario7; Auth/Storage/AI simulated; Automated Express/PGlite, tests/high-risk.test.ts scenario8; Auth/Storage/AI simulated; existing template browser scenario"
+    },
+    {
+      "id": "OPT-RATING-1",
+      "status": "Passed",
+      "actual": "Rating1 was saved and restored checked after closing/reopening fixture detail; API also accepted1-5 and rejected invalid ratings.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario5, all four widths; docs/workshop-5-4-phase2-results.json; Automated Express/PGlite, tests/high-risk.test.ts scenario6; Auth/Storage/AI simulated"
+    },
+    {
+      "id": "OPT-RATING-2",
+      "status": "Passed",
+      "actual": "Rating2 was saved and restored checked after closing/reopening fixture detail; API also accepted1-5 and rejected invalid ratings.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario5, all four widths; docs/workshop-5-4-phase2-results.json; Automated Express/PGlite, tests/high-risk.test.ts scenario6; Auth/Storage/AI simulated"
+    },
+    {
+      "id": "OPT-RATING-3",
+      "status": "Passed",
+      "actual": "Rating3 was saved and restored checked after closing/reopening fixture detail; API also accepted1-5 and rejected invalid ratings.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario5, all four widths; docs/workshop-5-4-phase2-results.json; Automated Express/PGlite, tests/high-risk.test.ts scenario6; Auth/Storage/AI simulated"
+    },
+    {
+      "id": "OPT-RATING-4",
+      "status": "Passed",
+      "actual": "Rating4 was saved and restored checked after closing/reopening fixture detail; API also accepted1-5 and rejected invalid ratings.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario5, all four widths; docs/workshop-5-4-phase2-results.json; Automated Express/PGlite, tests/high-risk.test.ts scenario6; Auth/Storage/AI simulated"
+    },
+    {
+      "id": "OPT-RATING-5",
+      "status": "Passed",
+      "actual": "Rating5 was saved and restored checked after closing/reopening fixture detail; API also accepted1-5 and rejected invalid ratings.",
+      "evidence": "Automated Chrome fixtures, tests/browser/high-risk.spec.ts scenario5, all four widths; docs/workshop-5-4-phase2-results.json; Automated Express/PGlite, tests/high-risk.test.ts scenario6; Auth/Storage/AI simulated"
+    },
+    {
+      "id": "AUTH-14",
+      "status": "Not tested",
+      "actual": "Reclassified: no human prerequisite. Current API401 fixture rejection verified; actual access/refresh expiry and SDK recovery still untested, not blocked by missing credentials.",
+      "evidence": "Partial current automation/live evidence; complete remaining scenario not executed; no manual prerequisite."
+    },
+    {
+      "id": "IMG-03",
+      "status": "Not tested",
+      "actual": "Reclassified: timed expiry is automatable. Current live signed access/public denial/foreign denial/deletion passed, but waiting beyond300 seconds and recovery after expiry was not executed.",
+      "evidence": "Partial current automation/live evidence; complete remaining scenario not executed; no manual prerequisite."
+    },
+    {
+      "id": "VAL-17",
+      "status": "Not tested",
+      "actual": "Reclassified: browser account switching is automatable. Two fresh real SDK accounts passed API/RLS isolation; complete real-browser A-to-B switch/cache check remains untested.",
+      "evidence": "Partial current automation/live evidence; complete remaining scenario not executed; no manual prerequisite."
+    },
+    {
+      "id": "VAL-05",
+      "status": "Not tested",
+      "actual": "Mixed create/invalid/skip API batch returned created/failed/skipped; corrected retry returned skipped/created/created safely. Multi-batch network-loss UI path remains untested.",
+      "evidence": "Automated Express/PGlite, tests/high-risk.test.ts scenario9; Auth/Storage/AI simulated; full UI/network case remains open."
+    },
+    {
+      "id": "AN-02",
+      "status": "Not tested",
+      "actual": "Queued/processing/retry progress labels were exercised in current four-width fixtures, but the complete attempt-counter0-3 variant matrix was not asserted.",
+      "evidence": "Partial: tests/browser/high-risk.spec.ts scenario7; counter variants remain open."
+    },
+    {
+      "id": "AUTH-09",
+      "status": "Not tested",
+      "actual": "Invalid-credentials response and successful retry passed in fixtures; complete Auth transport-failure recovery remains untested.",
+      "evidence": "Partial: tests/browser/high-risk.spec.ts scenario2; no complete offline Auth claim."
+    },
+    {
+      "id": "AUTH-10",
+      "status": "Not tested",
+      "actual": "Pending sign-in disabled submit and repeated Enter produced one request; mode changes during pending requests were not exercised.",
+      "evidence": "Partial: tests/browser/high-risk.spec.ts scenario2; complete mode/control variant remains open."
+    }
+  ],
+  "notes": [
+    "Read-only advisor/catalog review separate from disposable live-data operations.",
+    "One malformed-version API failure and one Favorites concurrency browser failure reproduced before fixes.",
+    "Test-only email length arithmetic and missing ID-array type corrected before final passes.",
+    "Prior Step1 evidence retained in its original artifact."
+  ],
+  "checklist": {
+    "starting": {
+      "Passed": 108,
+      "Failed": 0,
+      "Blocked": 9,
+      "Not tested": 167
+    },
+    "current": {
+      "Passed": 131,
+      "Failed": 0,
+      "Blocked": 6,
+      "Not tested": 147
+    },
+    "total": 284,
+    "newlyCompletedOriginalCases": 23,
+    "reclassifiedAutomatableCases": 3
+  },
+  "integrity": {
+    "filesScanned": 96,
+    "configuredPrivilegedKeyMatches": 0,
+    "privilegedFrontend": false,
+    "documentsChecked": 14,
+    "brokenLocalLinks": 0,
+    "uniqueChecklistIds": 284
+  },
+  "reproductions": {
+    "favorites": {
+      "before": "One desktop case failed: first pending card enabled after second request started",
+      "after": "Four-width scenario passed; each card stays disabled until its own completion"
+    },
+    "editTimestamp": {
+      "before": "One of13 new local cases failed: expected400, received503",
+      "after": "Malformed400 and valid/stale edit cases passed"
+    }
+  },
+  "manualUiPerformed": false,
+  "remainingBlockers": [
+    {
+      "id": "AUTH-08",
+      "needs": "User-controlled inbox: fresh confirmation delivery and link/sign-in experience"
+    },
+    {
+      "id": "AUTH-18",
+      "needs": "User-controlled confirmation links for expired/reused-link exercise"
+    },
+    {
+      "id": "AN-06",
+      "needs": "Explicit paid OpenAI approval; technically automatable, not inherently manual"
+    },
+    {
+      "id": "AX-06",
+      "needs": "NVDA/VoiceOver session and user review of spoken experience"
+    },
+    {
+      "id": "AX-07",
+      "needs": "Physical iOS/Android devices"
+    },
+    {
+      "id": "AX-08",
+      "needs": "Safari/Mac environment; Firefox portion can be automated once available"
+    }
+  ],
+  "automatableRemaining": [
+    "AUTH-14: controlled access/refresh expiry recovery",
+    "IMG-03: actual >300-second expiry and fresh-signature recovery",
+    "VAL-17: real browser account switch/cache isolation"
+  ]
+}

@@ -1,0 +1,2992 @@
+[
+  {
+    "key": "sandals-1",
+    "kind": "item",
+    "section": "Sandals",
+    "source": "Nike: 1 pair.",
+    "warnings": [],
+    "item": {
+      "name": "Nike: 1 pair",
+      "category": "shoes",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Nike",
+      "fit": null,
+      "subtype": "sandals",
+      "quantity": 1,
+      "quantity_unit": "pairs",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Nike: 1 pair.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "sandals-2",
+    "kind": "item",
+    "section": "Sandals",
+    "source": "Jordan: 1 pair.",
+    "warnings": [],
+    "item": {
+      "name": "Jordan: 1 pair",
+      "category": "shoes",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": "sandals",
+      "quantity": 1,
+      "quantity_unit": "pairs",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jordan: 1 pair.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "socks-1-white",
+    "kind": "item",
+    "section": "Socks",
+    "source": "Nike: 3 white, 3 black, 3 color.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Nike socks · white",
+      "category": "socks",
+      "color": "white",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Nike",
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Nike: 3 white, 3 black, 3 color.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "socks-1-black",
+    "kind": "item",
+    "section": "Socks",
+    "source": "Nike: 3 white, 3 black, 3 color.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Nike socks · black",
+      "category": "socks",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Nike",
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Nike: 3 white, 3 black, 3 color.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "socks-1-color",
+    "kind": "item",
+    "section": "Socks",
+    "source": "Nike: 3 white, 3 black, 3 color.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Nike socks · color",
+      "category": "socks",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Nike",
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Nike: 3 white, 3 black, 3 color.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "socks-2-white",
+    "kind": "item",
+    "section": "Socks",
+    "source": "Jordan: 3 white, 3 black, 3 color.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Jordan socks · white",
+      "category": "socks",
+      "color": "white",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jordan: 3 white, 3 black, 3 color.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "socks-2-black",
+    "kind": "item",
+    "section": "Socks",
+    "source": "Jordan: 3 white, 3 black, 3 color.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Jordan socks · black",
+      "category": "socks",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jordan: 3 white, 3 black, 3 color.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "socks-2-color",
+    "kind": "item",
+    "section": "Socks",
+    "source": "Jordan: 3 white, 3 black, 3 color.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Jordan socks · color",
+      "category": "socks",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jordan: 3 white, 3 black, 3 color.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "socks-3-black",
+    "kind": "item",
+    "section": "Socks",
+    "source": "Zara/H&M: 1 black, 1 brown, 1 kaki, 1 beige, 1 gray. Brand allocation is unspecified.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Brand allocation or brand is unconfirmed."
+    ],
+    "item": {
+      "name": "Socks · black",
+      "category": "socks",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Zara/H&M: 1 black, 1 brown, 1 kaki, 1 beige, 1 gray. Brand allocation is unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "socks-3-brown",
+    "kind": "item",
+    "section": "Socks",
+    "source": "Zara/H&M: 1 black, 1 brown, 1 kaki, 1 beige, 1 gray. Brand allocation is unspecified.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Brand allocation or brand is unconfirmed."
+    ],
+    "item": {
+      "name": "Socks · brown",
+      "category": "socks",
+      "color": "brown",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Zara/H&M: 1 black, 1 brown, 1 kaki, 1 beige, 1 gray. Brand allocation is unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "socks-3-kaki",
+    "kind": "item",
+    "section": "Socks",
+    "source": "Zara/H&M: 1 black, 1 brown, 1 kaki, 1 beige, 1 gray. Brand allocation is unspecified.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Brand allocation or brand is unconfirmed."
+    ],
+    "item": {
+      "name": "Socks · kaki",
+      "category": "socks",
+      "color": "kaki",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Zara/H&M: 1 black, 1 brown, 1 kaki, 1 beige, 1 gray. Brand allocation is unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "socks-3-beige",
+    "kind": "item",
+    "section": "Socks",
+    "source": "Zara/H&M: 1 black, 1 brown, 1 kaki, 1 beige, 1 gray. Brand allocation is unspecified.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Brand allocation or brand is unconfirmed."
+    ],
+    "item": {
+      "name": "Socks · beige",
+      "category": "socks",
+      "color": "beige",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Zara/H&M: 1 black, 1 brown, 1 kaki, 1 beige, 1 gray. Brand allocation is unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "socks-3-gray",
+    "kind": "item",
+    "section": "Socks",
+    "source": "Zara/H&M: 1 black, 1 brown, 1 kaki, 1 beige, 1 gray. Brand allocation is unspecified.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Brand allocation or brand is unconfirmed."
+    ],
+    "item": {
+      "name": "Socks · gray",
+      "category": "socks",
+      "color": "gray",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Zara/H&M: 1 black, 1 brown, 1 kaki, 1 beige, 1 gray. Brand allocation is unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "underwear-1-black",
+    "kind": "item",
+    "section": "Underwear",
+    "source": "Calvin Klein: 2 black, 3 white, 2 gray, 2 colors.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Calvin Klein underwear · black",
+      "category": "underwear",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 2,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Calvin Klein: 2 black, 3 white, 2 gray, 2 colors.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "underwear-1-white",
+    "kind": "item",
+    "section": "Underwear",
+    "source": "Calvin Klein: 2 black, 3 white, 2 gray, 2 colors.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Calvin Klein underwear · white",
+      "category": "underwear",
+      "color": "white",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Calvin Klein: 2 black, 3 white, 2 gray, 2 colors.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "underwear-1-gray",
+    "kind": "item",
+    "section": "Underwear",
+    "source": "Calvin Klein: 2 black, 3 white, 2 gray, 2 colors.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Calvin Klein underwear · gray",
+      "category": "underwear",
+      "color": "gray",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 2,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Calvin Klein: 2 black, 3 white, 2 gray, 2 colors.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "underwear-1-colors",
+    "kind": "item",
+    "section": "Underwear",
+    "source": "Calvin Klein: 2 black, 3 white, 2 gray, 2 colors.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Calvin Klein underwear · colors unspecified",
+      "category": "underwear",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 2,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Calvin Klein: 2 black, 3 white, 2 gray, 2 colors.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "underwear-2",
+    "kind": "item",
+    "section": "Underwear",
+    "source": "Nike: pack of 3.",
+    "warnings": [],
+    "item": {
+      "name": "Nike: pack of 3",
+      "category": "underwear",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Nike",
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "pieces",
+      "pack_count": 1,
+      "pack_description": "Nike: pack of 3.",
+      "source_description": "Nike: pack of 3.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "underwear-3",
+    "kind": "item",
+    "section": "Underwear",
+    "source": "Jordan: pack of 3.",
+    "warnings": [],
+    "item": {
+      "name": "Jordan: pack of 3",
+      "category": "underwear",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "pieces",
+      "pack_count": 1,
+      "pack_description": "Jordan: pack of 3.",
+      "source_description": "Jordan: pack of 3.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "sleeveless-shirts-1",
+    "kind": "item",
+    "section": "Sleeveless shirts",
+    "source": "Nike: pack of 1.",
+    "warnings": [],
+    "item": {
+      "name": "Nike: pack of 1",
+      "category": "tops",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Nike",
+      "fit": null,
+      "subtype": "sleeveless shirt",
+      "quantity": 1,
+      "quantity_unit": "pieces",
+      "pack_count": 1,
+      "pack_description": "Nike: pack of 1.",
+      "source_description": "Nike: pack of 1.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "sleeveless-shirts-2",
+    "kind": "item",
+    "section": "Sleeveless shirts",
+    "source": "Jordan: pack of 1.",
+    "warnings": [],
+    "item": {
+      "name": "Jordan: pack of 1",
+      "category": "tops",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": "sleeveless shirt",
+      "quantity": 1,
+      "quantity_unit": "pieces",
+      "pack_count": 1,
+      "pack_description": "Jordan: pack of 1.",
+      "source_description": "Jordan: pack of 1.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "shorts-1",
+    "kind": "item",
+    "section": "Shorts",
+    "source": "Nike: pack of 1.",
+    "warnings": [],
+    "item": {
+      "name": "Nike: pack of 1",
+      "category": "bottoms",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Nike",
+      "fit": null,
+      "subtype": "shorts",
+      "quantity": 1,
+      "quantity_unit": "pieces",
+      "pack_count": 1,
+      "pack_description": "Nike: pack of 1.",
+      "source_description": "Nike: pack of 1.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "shorts-2",
+    "kind": "item",
+    "section": "Shorts",
+    "source": "Jordan: pack of 1.",
+    "warnings": [],
+    "item": {
+      "name": "Jordan: pack of 1",
+      "category": "bottoms",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": "shorts",
+      "quantity": 1,
+      "quantity_unit": "pieces",
+      "pack_count": 1,
+      "pack_description": "Jordan: pack of 1.",
+      "source_description": "Jordan: pack of 1.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "shorts-3",
+    "kind": "item",
+    "section": "Shorts",
+    "source": "Others: 3 others.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Others: 3 others",
+      "category": "bottoms",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": "shorts",
+      "quantity": 3,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Others: 3 others.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "tops-1",
+    "kind": "item",
+    "section": "Tops",
+    "source": "Nike: pack of 3.",
+    "warnings": [],
+    "item": {
+      "name": "Nike: pack of 3",
+      "category": "tops",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Nike",
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "pieces",
+      "pack_count": 1,
+      "pack_description": "Nike: pack of 3.",
+      "source_description": "Nike: pack of 3.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "tops-2",
+    "kind": "item",
+    "section": "Tops",
+    "source": "Jordan: pack of 3.",
+    "warnings": [],
+    "item": {
+      "name": "Jordan: pack of 3",
+      "category": "tops",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "pieces",
+      "pack_count": 1,
+      "pack_description": "Jordan: pack of 3.",
+      "source_description": "Jordan: pack of 3.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "tops-3",
+    "kind": "item",
+    "section": "Tops",
+    "source": "Others: pack of 3, no name.",
+    "warnings": [],
+    "item": {
+      "name": "Others: pack of 3, no name",
+      "category": "tops",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "pieces",
+      "pack_count": 1,
+      "pack_description": "Others: pack of 3, no name.",
+      "source_description": "Others: pack of 3, no name.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "bottoms-1-black",
+    "kind": "item",
+    "section": "Bottoms",
+    "source": "Jeans, slim fit: 1 black, 1 sky blue.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Jeans, slim fit · black",
+      "category": "bottoms",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": "slim fit",
+      "subtype": "jeans",
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jeans, slim fit: 1 black, 1 sky blue.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "bottoms-1-sky-blue",
+    "kind": "item",
+    "section": "Bottoms",
+    "source": "Jeans, slim fit: 1 black, 1 sky blue.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Jeans, slim fit · sky blue",
+      "category": "bottoms",
+      "color": "sky blue",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": "slim fit",
+      "subtype": "jeans",
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jeans, slim fit: 1 black, 1 sky blue.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "bottoms-2-black",
+    "kind": "item",
+    "section": "Bottoms",
+    "source": "Jeans, baggy: 1 ripped black, 1 ripped blue.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Jeans, baggy · ripped black",
+      "category": "bottoms",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": "baggy",
+      "subtype": "jeans",
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jeans, baggy: 1 ripped black, 1 ripped blue.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "bottoms-2-blue",
+    "kind": "item",
+    "section": "Bottoms",
+    "source": "Jeans, baggy: 1 ripped black, 1 ripped blue.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Jeans, baggy · ripped blue",
+      "category": "bottoms",
+      "color": "blue",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": "baggy",
+      "subtype": "jeans",
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jeans, baggy: 1 ripped black, 1 ripped blue.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "bottoms-3",
+    "kind": "item",
+    "section": "Bottoms",
+    "source": "Joggers: kaki and gray, no name; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Joggers: kaki and gray, no name; quantities unspecified",
+      "category": "bottoms",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Joggers: kaki and gray, no name; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "bottoms-4",
+    "kind": "item",
+    "section": "Bottoms",
+    "source": "Cargo: brown, baggy fit and slim fit; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Cargo: brown, baggy fit and slim fit; quantities unspecified",
+      "category": "bottoms",
+      "color": "brown",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Cargo: brown, baggy fit and slim fit; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "bottoms-5",
+    "kind": "item",
+    "section": "Bottoms",
+    "source": "Cargo: army green, baggy fit and slim fit; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Cargo: army green, baggy fit and slim fit; quantities unspecified",
+      "category": "bottoms",
+      "color": "green",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Cargo: army green, baggy fit and slim fit; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "sports-combination-templates-1",
+    "kind": "template",
+    "section": "Sports combination templates",
+    "source": "Day 1, Recovery + HIIT, Nike: shirt, Thigh, short, socks, shoes, towel. Match Orange Nike 5.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership.",
+      "“Thigh” needs your clarification."
+    ],
+    "template": {
+      "title": "Day 1, Recovery + HIIT, Nike",
+      "occasion": "Sport",
+      "notes": "Day 1, Recovery + HIIT, Nike: shirt, Thigh, short, socks, shoes, towel. Match Orange Nike 5.",
+      "components": [
+        {
+          "label": "shirt",
+          "item_id": null
+        },
+        {
+          "label": "Thigh",
+          "item_id": null
+        },
+        {
+          "label": "short",
+          "item_id": null
+        },
+        {
+          "label": "socks",
+          "item_id": null
+        },
+        {
+          "label": "shoes",
+          "item_id": null
+        },
+        {
+          "label": "towel",
+          "item_id": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "sports-combination-templates-2",
+    "kind": "template",
+    "section": "Sports combination templates",
+    "source": "Day 2, Weight Lift, Nike: top, underwear, bottom, socks, shoes, towel. Match White Kyrie.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership."
+    ],
+    "template": {
+      "title": "Day 2, Weight Lift, Nike",
+      "occasion": "Sport",
+      "notes": "Day 2, Weight Lift, Nike: top, underwear, bottom, socks, shoes, towel. Match White Kyrie.",
+      "components": [
+        {
+          "label": "top",
+          "item_id": null
+        },
+        {
+          "label": "underwear",
+          "item_id": null
+        },
+        {
+          "label": "bottom",
+          "item_id": null
+        },
+        {
+          "label": "socks",
+          "item_id": null
+        },
+        {
+          "label": "shoes",
+          "item_id": null
+        },
+        {
+          "label": "towel",
+          "item_id": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "sports-combination-templates-3",
+    "kind": "template",
+    "section": "Sports combination templates",
+    "source": "Day 3, Soccer, Nike: shirt, underwear, short, socks, shoes, towel. Match Blue Soccer Cleats.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership."
+    ],
+    "template": {
+      "title": "Day 3, Soccer, Nike",
+      "occasion": "Sport",
+      "notes": "Day 3, Soccer, Nike: shirt, underwear, short, socks, shoes, towel. Match Blue Soccer Cleats.",
+      "components": [
+        {
+          "label": "shirt",
+          "item_id": null
+        },
+        {
+          "label": "underwear",
+          "item_id": null
+        },
+        {
+          "label": "short",
+          "item_id": null
+        },
+        {
+          "label": "socks",
+          "item_id": null
+        },
+        {
+          "label": "shoes",
+          "item_id": null
+        },
+        {
+          "label": "towel",
+          "item_id": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "sports-combination-templates-4",
+    "kind": "template",
+    "section": "Sports combination templates",
+    "source": "Day 4, Recovery + HIIT, Jordan: shirt, Thigh, short, socks, shoes, towel. Match Brown Jordan Shoes.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership.",
+      "“Thigh” needs your clarification."
+    ],
+    "template": {
+      "title": "Day 4, Recovery + HIIT, Jordan",
+      "occasion": "Sport",
+      "notes": "Day 4, Recovery + HIIT, Jordan: shirt, Thigh, short, socks, shoes, towel. Match Brown Jordan Shoes.",
+      "components": [
+        {
+          "label": "shirt",
+          "item_id": null
+        },
+        {
+          "label": "Thigh",
+          "item_id": null
+        },
+        {
+          "label": "short",
+          "item_id": null
+        },
+        {
+          "label": "socks",
+          "item_id": null
+        },
+        {
+          "label": "shoes",
+          "item_id": null
+        },
+        {
+          "label": "towel",
+          "item_id": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "sports-combination-templates-5",
+    "kind": "template",
+    "section": "Sports combination templates",
+    "source": "Day 5, Weight Lift, Jordan: top, underwear, bottom (jogger), socks, shoes, towel. Match Jordan Low 1.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership."
+    ],
+    "template": {
+      "title": "Day 5, Weight Lift, Jordan",
+      "occasion": "Sport",
+      "notes": "Day 5, Weight Lift, Jordan: top, underwear, bottom (jogger), socks, shoes, towel. Match Jordan Low 1.",
+      "components": [
+        {
+          "label": "top",
+          "item_id": null
+        },
+        {
+          "label": "underwear",
+          "item_id": null
+        },
+        {
+          "label": "bottom (jogger)",
+          "item_id": null
+        },
+        {
+          "label": "socks",
+          "item_id": null
+        },
+        {
+          "label": "shoes",
+          "item_id": null
+        },
+        {
+          "label": "towel",
+          "item_id": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "sports-combination-templates-6",
+    "kind": "template",
+    "section": "Sports combination templates",
+    "source": "Day 6, HIIT, Nobull: shirt, Thigh, short, socks, shoes, towel. Match Nobull Shoes.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership.",
+      "“Thigh” needs your clarification."
+    ],
+    "template": {
+      "title": "Day 6, HIIT, Nobull",
+      "occasion": "Sport",
+      "notes": "Day 6, HIIT, Nobull: shirt, Thigh, short, socks, shoes, towel. Match Nobull Shoes.",
+      "components": [
+        {
+          "label": "shirt",
+          "item_id": null
+        },
+        {
+          "label": "Thigh",
+          "item_id": null
+        },
+        {
+          "label": "short",
+          "item_id": null
+        },
+        {
+          "label": "socks",
+          "item_id": null
+        },
+        {
+          "label": "shoes",
+          "item_id": null
+        },
+        {
+          "label": "towel",
+          "item_id": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "sports-combination-templates-7",
+    "kind": "template",
+    "section": "Sports combination templates",
+    "source": "Day 7, Soccer, Team Jersey: underwear, socks, shin guard, shoes. Team Jersey.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership."
+    ],
+    "template": {
+      "title": "Day 7, Soccer, Team Jersey",
+      "occasion": "Sport",
+      "notes": "Day 7, Soccer, Team Jersey: underwear, socks, shin guard, shoes. Team Jersey.",
+      "components": [
+        {
+          "label": "underwear",
+          "item_id": null
+        },
+        {
+          "label": "socks",
+          "item_id": null
+        },
+        {
+          "label": "shin guard",
+          "item_id": null
+        },
+        {
+          "label": "shoes",
+          "item_id": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "sports-combination-templates-8",
+    "kind": "template",
+    "section": "Sports combination templates",
+    "source": "Extra Soccer: shirt, underwear, short, socks, shoes, towel. Match Green Nike Mercurial.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership."
+    ],
+    "template": {
+      "title": "Extra Soccer",
+      "occasion": "Extra Soccer",
+      "notes": "Extra Soccer: shirt, underwear, short, socks, shoes, towel. Match Green Nike Mercurial.",
+      "components": [
+        {
+          "label": "shirt",
+          "item_id": null
+        },
+        {
+          "label": "underwear",
+          "item_id": null
+        },
+        {
+          "label": "short",
+          "item_id": null
+        },
+        {
+          "label": "socks",
+          "item_id": null
+        },
+        {
+          "label": "shoes",
+          "item_id": null
+        },
+        {
+          "label": "towel",
+          "item_id": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "sports-combination-templates-9",
+    "kind": "template",
+    "section": "Sports combination templates",
+    "source": "Basketball: shirt, underwear, short, socks, shoes, towel. Match Black Kyrie Nike.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership."
+    ],
+    "template": {
+      "title": "Basketball",
+      "occasion": "Basketball",
+      "notes": "Basketball: shirt, underwear, short, socks, shoes, towel. Match Black Kyrie Nike.",
+      "components": [
+        {
+          "label": "shirt",
+          "item_id": null
+        },
+        {
+          "label": "underwear",
+          "item_id": null
+        },
+        {
+          "label": "short",
+          "item_id": null
+        },
+        {
+          "label": "socks",
+          "item_id": null
+        },
+        {
+          "label": "shoes",
+          "item_id": null
+        },
+        {
+          "label": "towel",
+          "item_id": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "sports-combination-templates-10",
+    "kind": "template",
+    "section": "Sports combination templates",
+    "source": "Swimming: underwear, cap, glasses.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership."
+    ],
+    "template": {
+      "title": "Swimming",
+      "occasion": "Swimming",
+      "notes": "Swimming: underwear, cap, glasses.",
+      "components": [
+        {
+          "label": "underwear",
+          "item_id": null
+        },
+        {
+          "label": "cap",
+          "item_id": null
+        },
+        {
+          "label": "glasses",
+          "item_id": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "sports-combination-templates-11",
+    "kind": "template",
+    "section": "Sports combination templates",
+    "source": "Boxing: shirt, underwear, short, socks, shoes, towel. Match gloves.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership."
+    ],
+    "template": {
+      "title": "Boxing",
+      "occasion": "Boxing",
+      "notes": "Boxing: shirt, underwear, short, socks, shoes, towel. Match gloves.",
+      "components": [
+        {
+          "label": "shirt",
+          "item_id": null
+        },
+        {
+          "label": "underwear",
+          "item_id": null
+        },
+        {
+          "label": "short",
+          "item_id": null
+        },
+        {
+          "label": "socks",
+          "item_id": null
+        },
+        {
+          "label": "shoes",
+          "item_id": null
+        },
+        {
+          "label": "towel",
+          "item_id": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "jerseys-1",
+    "kind": "item",
+    "section": "Jerseys",
+    "source": "Boston Celtics: beige, white, green, black; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Boston Celtics: beige, white, green, black; quantities unspecified",
+      "category": "tops",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": "jersey",
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Boston Celtics: beige, white, green, black; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "jerseys-2",
+    "kind": "item",
+    "section": "Jerseys",
+    "source": "Barcelona: home and away; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Barcelona: home and away; quantities unspecified",
+      "category": "tops",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": "jersey",
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Barcelona: home and away; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "jerseys-3",
+    "kind": "item",
+    "section": "Jerseys",
+    "source": "National: Cameroon, France, Spain; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "National: Cameroon, France, Spain; quantities unspecified",
+      "category": "tops",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": "jersey",
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "National: Cameroon, France, Spain; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "jerseys-4",
+    "kind": "item",
+    "section": "Jerseys",
+    "source": "Inner wear for jersey: white, black, beige; no name, approximately Zara; brand not confirmed.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Brand allocation or brand is unconfirmed."
+    ],
+    "item": {
+      "name": "Inner wear for jersey: white, black, beige; no name, approximately Zara; brand not confirmed",
+      "category": "tops",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": "jersey",
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Inner wear for jersey: white, black, beige; no name, approximately Zara; brand not confirmed.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "hoodies-and-jogger-1",
+    "kind": "item",
+    "section": "Hoodies and jogger",
+    "source": "Nike: 1 pack; component count unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Keep the set together; do not count components separately."
+    ],
+    "item": {
+      "name": "Nike: 1 pack; component count unspecified",
+      "category": "sets",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Nike",
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": 1,
+      "pack_description": "Nike: 1 pack; component count unspecified.",
+      "source_description": "Nike: 1 pack; component count unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "hoodies-and-jogger-2",
+    "kind": "item",
+    "section": "Hoodies and jogger",
+    "source": "Jordan: 1 pack; component count unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Keep the set together; do not count components separately."
+    ],
+    "item": {
+      "name": "Jordan: 1 pack; component count unspecified",
+      "category": "sets",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": 1,
+      "pack_description": "Jordan: 1 pack; component count unspecified.",
+      "source_description": "Jordan: 1 pack; component count unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-1",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Polos: 5 polos: black, army green, brown, 2 others.",
+    "warnings": [],
+    "item": {
+      "name": "Work · Polos: 5 polos: black, army green, brown, 2 others",
+      "category": "tops",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": "polo",
+      "quantity": 5,
+      "quantity_unit": "pieces",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Polos: 5 polos: black, army green, brown, 2 others.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-2",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Chemises: 5 chemises: white, burgundy, gray, black, brown.",
+    "warnings": [],
+    "item": {
+      "name": "Work · Chemises: 5 chemises: white, burgundy, gray, black, brown",
+      "category": "tops",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": "chemise",
+      "quantity": 5,
+      "quantity_unit": "pieces",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Chemises: 5 chemises: white, burgundy, gray, black, brown.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-3",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Jeans: blue slim fit, kaki slim fit; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Work · Jeans: blue slim fit, kaki slim fit; quantities unspecified",
+      "category": "bottoms",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": "slim fit",
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jeans: blue slim fit, kaki slim fit; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-4",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Bottom: black, gray, brown; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Work · Bottom: black, gray, brown; quantities unspecified",
+      "category": "bottoms",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Bottom: black, gray, brown; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-5-black",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Underwear: 2 black CK, 2 gray CK, 2 brown CK.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Work underwear · black",
+      "category": "underwear",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Calvin Klein",
+      "fit": null,
+      "subtype": null,
+      "quantity": 2,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Underwear: 2 black CK, 2 gray CK, 2 brown CK.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-5-gray",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Underwear: 2 black CK, 2 gray CK, 2 brown CK.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Work underwear · gray",
+      "category": "underwear",
+      "color": "gray",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Calvin Klein",
+      "fit": null,
+      "subtype": null,
+      "quantity": 2,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Underwear: 2 black CK, 2 gray CK, 2 brown CK.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-5-brown",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Underwear: 2 black CK, 2 gray CK, 2 brown CK.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Work underwear · brown",
+      "category": "underwear",
+      "color": "brown",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Calvin Klein",
+      "fit": null,
+      "subtype": null,
+      "quantity": 2,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Underwear: 2 black CK, 2 gray CK, 2 brown CK.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-6-black",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Socks: 2 black, 1 gray, 1 brown, 1 beige.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Work socks · black",
+      "category": "socks",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 2,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Socks: 2 black, 1 gray, 1 brown, 1 beige.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-6-gray",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Socks: 2 black, 1 gray, 1 brown, 1 beige.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Work socks · gray",
+      "category": "socks",
+      "color": "gray",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Socks: 2 black, 1 gray, 1 brown, 1 beige.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-6-brown",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Socks: 2 black, 1 gray, 1 brown, 1 beige.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Work socks · brown",
+      "category": "socks",
+      "color": "brown",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Socks: 2 black, 1 gray, 1 brown, 1 beige.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-6-beige",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Socks: 2 black, 1 gray, 1 brown, 1 beige.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Work socks · beige",
+      "category": "socks",
+      "color": "beige",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Socks: 2 black, 1 gray, 1 brown, 1 beige.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-7",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Shoes: 1 black, 1 brown, 1 no-name sneaker.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Work · Shoes: 1 black, 1 brown, 1 no-name sneaker",
+      "category": "shoes",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 3,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Shoes: 1 black, 1 brown, 1 no-name sneaker.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "work-collection-8",
+    "kind": "item",
+    "section": "Work collection",
+    "source": "Belt: 1 black, 1 brown.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Work · Belt: 1 black, 1 brown",
+      "category": "accessories",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 2,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Belt: 1 black, 1 brown.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "planned-occasions-1",
+    "kind": "template",
+    "section": "Planned occasions",
+    "source": "Church: TBD.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership."
+    ],
+    "template": {
+      "title": "Church",
+      "occasion": "Church",
+      "notes": "Church: TBD.",
+      "components": []
+    }
+  },
+  {
+    "key": "planned-occasions-2",
+    "kind": "template",
+    "section": "Planned occasions",
+    "source": "Outing: TBD.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership."
+    ],
+    "template": {
+      "title": "Outing",
+      "occasion": "Outing",
+      "notes": "Outing: TBD.",
+      "components": []
+    }
+  },
+  {
+    "key": "suits-and-afritude-1-black",
+    "kind": "item",
+    "section": "Suits and Afritude",
+    "source": "Normal suits: 1 black, 1 gray, 1 brown, 1 blue, Specials (unspecified).",
+    "warnings": [
+      "Keep the set together; do not count components separately."
+    ],
+    "item": {
+      "name": "Normal suit · black",
+      "category": "suits",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "sets",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Normal suits: 1 black, 1 gray, 1 brown, 1 blue, Specials (unspecified).",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "suits-and-afritude-1-gray",
+    "kind": "item",
+    "section": "Suits and Afritude",
+    "source": "Normal suits: 1 black, 1 gray, 1 brown, 1 blue, Specials (unspecified).",
+    "warnings": [
+      "Keep the set together; do not count components separately."
+    ],
+    "item": {
+      "name": "Normal suit · gray",
+      "category": "suits",
+      "color": "gray",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "sets",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Normal suits: 1 black, 1 gray, 1 brown, 1 blue, Specials (unspecified).",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "suits-and-afritude-1-brown",
+    "kind": "item",
+    "section": "Suits and Afritude",
+    "source": "Normal suits: 1 black, 1 gray, 1 brown, 1 blue, Specials (unspecified).",
+    "warnings": [
+      "Keep the set together; do not count components separately."
+    ],
+    "item": {
+      "name": "Normal suit · brown",
+      "category": "suits",
+      "color": "brown",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "sets",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Normal suits: 1 black, 1 gray, 1 brown, 1 blue, Specials (unspecified).",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "suits-and-afritude-1-blue",
+    "kind": "item",
+    "section": "Suits and Afritude",
+    "source": "Normal suits: 1 black, 1 gray, 1 brown, 1 blue, Specials (unspecified).",
+    "warnings": [
+      "Keep the set together; do not count components separately."
+    ],
+    "item": {
+      "name": "Normal suit · blue",
+      "category": "suits",
+      "color": "blue",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "sets",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Normal suits: 1 black, 1 gray, 1 brown, 1 blue, Specials (unspecified).",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "suits-and-afritude-1-specials",
+    "kind": "item",
+    "section": "Suits and Afritude",
+    "source": "Normal suits: 1 black, 1 gray, 1 brown, 1 blue, Specials (unspecified).",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Keep the set together; do not count components separately."
+    ],
+    "item": {
+      "name": "Specials · suits",
+      "category": "suits",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Normal suits: 1 black, 1 gray, 1 brown, 1 blue, Specials (unspecified).",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "suits-and-afritude-2",
+    "kind": "template",
+    "section": "Suits and Afritude",
+    "source": "Smoking: TBD.",
+    "warnings": [
+      "Planning template only. Components do not establish additional ownership."
+    ],
+    "template": {
+      "title": "Smoking",
+      "occasion": "Smoking",
+      "notes": "Smoking: TBD.",
+      "components": []
+    }
+  },
+  {
+    "key": "suits-and-afritude-3-white",
+    "kind": "item",
+    "section": "Suits and Afritude",
+    "source": "Afritude: 1 white, 1 gold, 1 black.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Afritude · white",
+      "category": "afritude",
+      "color": "white",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Afritude: 1 white, 1 gold, 1 black.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "suits-and-afritude-3-gold",
+    "kind": "item",
+    "section": "Suits and Afritude",
+    "source": "Afritude: 1 white, 1 gold, 1 black.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Afritude · gold",
+      "category": "afritude",
+      "color": "gold",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Afritude: 1 white, 1 gold, 1 black.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "suits-and-afritude-3-black",
+    "kind": "item",
+    "section": "Suits and Afritude",
+    "source": "Afritude: 1 white, 1 gold, 1 black.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Afritude · black",
+      "category": "afritude",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Afritude: 1 white, 1 gold, 1 black.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "suits-and-afritude-4",
+    "kind": "item",
+    "section": "Suits and Afritude",
+    "source": "Ensemble jean: chemise + pantalon; quantity unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Keep the set together; do not count components separately."
+    ],
+    "item": {
+      "name": "Ensemble jean: chemise + pantalon; quantity unspecified",
+      "category": "sets",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "Ensemble jean: chemise + pantalon; quantity unspecified.",
+      "source_description": "Ensemble jean: chemise + pantalon; quantity unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "suits-and-afritude-5",
+    "kind": "item",
+    "section": "Suits and Afritude",
+    "source": "All white: polo + pantalon, T-shirt + jean; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Keep the set together; do not count components separately."
+    ],
+    "item": {
+      "name": "All white: polo + pantalon, T-shirt + jean; quantities unspecified",
+      "category": "sets",
+      "color": "white",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "All white: polo + pantalon, T-shirt + jean; quantities unspecified.",
+      "source_description": "All white: polo + pantalon, T-shirt + jean; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "hats-and-caps-1",
+    "kind": "item",
+    "section": "Hats and caps",
+    "source": "Jordan black.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Jordan black",
+      "category": "headwear",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jordan black.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "hats-and-caps-2",
+    "kind": "item",
+    "section": "Hats and caps",
+    "source": "Jordan red.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Jordan red",
+      "category": "headwear",
+      "color": "red",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jordan red.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "hats-and-caps-3",
+    "kind": "item",
+    "section": "Hats and caps",
+    "source": "ATL black.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "ATL black",
+      "category": "headwear",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "ATL black.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "hats-and-caps-4",
+    "kind": "item",
+    "section": "Hats and caps",
+    "source": "ATL blue red.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "ATL blue red",
+      "category": "headwear",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "ATL blue red.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "hats-and-caps-5",
+    "kind": "item",
+    "section": "Hats and caps",
+    "source": "Boston Celtics.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Boston Celtics",
+      "category": "headwear",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Boston Celtics.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "shoes-1",
+    "kind": "item",
+    "section": "Shoes",
+    "source": "Nike: 5 pairs, individual models unspecified.",
+    "warnings": [
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Nike: 5 pairs, individual models unspecified",
+      "category": "shoes",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Nike",
+      "fit": null,
+      "subtype": null,
+      "quantity": 5,
+      "quantity_unit": "pairs",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Nike: 5 pairs, individual models unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Street wear"
+      ]
+    }
+  },
+  {
+    "key": "shoes-2",
+    "kind": "item",
+    "section": "Shoes",
+    "source": "Jordan: 5 pairs, individual models unspecified.",
+    "warnings": [
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Jordan: 5 pairs, individual models unspecified",
+      "category": "shoes",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Jordan",
+      "fit": null,
+      "subtype": null,
+      "quantity": 5,
+      "quantity_unit": "pairs",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Jordan: 5 pairs, individual models unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Street wear"
+      ]
+    }
+  },
+  {
+    "key": "shoes-3",
+    "kind": "item",
+    "section": "Shoes",
+    "source": "Designer: Versace blue, Givenchy red, Givenchy blue; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Designer: Versace blue, Givenchy red, Givenchy blue; quantities unspecified",
+      "category": "shoes",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Designer: Versace blue, Givenchy red, Givenchy blue; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Street wear"
+      ]
+    }
+  },
+  {
+    "key": "shoes-4",
+    "kind": "item",
+    "section": "Shoes",
+    "source": "Sneaker: Versace black, Zara sneaker; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Sneaker: Versace black, Zara sneaker; quantities unspecified",
+      "category": "shoes",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Sneaker: Versace black, Zara sneaker; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Business casual"
+      ]
+    }
+  },
+  {
+    "key": "shoes-5-black",
+    "kind": "item",
+    "section": "Shoes",
+    "source": "Zara black 2, Zara brown 2.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Zara shoes · black",
+      "category": "shoes",
+      "color": "black",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Zara",
+      "fit": null,
+      "subtype": null,
+      "quantity": 2,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Zara black 2, Zara brown 2.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Business casual"
+      ]
+    }
+  },
+  {
+    "key": "shoes-5-brown",
+    "kind": "item",
+    "section": "Shoes",
+    "source": "Zara black 2, Zara brown 2.",
+    "warnings": [
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Zara shoes · brown",
+      "category": "shoes",
+      "color": "brown",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Zara",
+      "fit": null,
+      "subtype": null,
+      "quantity": 2,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Zara black 2, Zara brown 2.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Business casual"
+      ]
+    }
+  },
+  {
+    "key": "shoes-6",
+    "kind": "item",
+    "section": "Shoes",
+    "source": "Designer shoes: Alexander Mc Queen, LV, Dolce Gabbana; quantities unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Designer shoes: Alexander Mc Queen, LV, Dolce Gabbana; quantities unspecified",
+      "category": "shoes",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Designer shoes: Alexander Mc Queen, LV, Dolce Gabbana; quantities unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Date night"
+      ]
+    }
+  },
+  {
+    "key": "shoes-7",
+    "kind": "item",
+    "section": "Shoes",
+    "source": "Zara black, Zara brown; quantities unspecified and may overlap other collections.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Potential overlap with other collections. Choose separate, link, or skip."
+    ],
+    "item": {
+      "name": "Zara black, Zara brown; quantities unspecified and may overlap other collections",
+      "category": "shoes",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": "Zara",
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Zara black, Zara brown; quantities unspecified and may overlap other collections.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Date night"
+      ]
+    }
+  },
+  {
+    "key": "pajamas-1",
+    "kind": "item",
+    "section": "Pajamas",
+    "source": "Ensemble white; quantity unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Keep the set together; do not count components separately."
+    ],
+    "item": {
+      "name": "Ensemble white; quantity unspecified",
+      "category": "sleepwear",
+      "color": "white",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "Ensemble white; quantity unspecified.",
+      "source_description": "Ensemble white; quantity unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "pajamas-2",
+    "kind": "item",
+    "section": "Pajamas",
+    "source": "Ensemble green; quantity unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified.",
+      "Keep the set together; do not count components separately."
+    ],
+    "item": {
+      "name": "Ensemble green; quantity unspecified",
+      "category": "sleepwear",
+      "color": "green",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "Ensemble green; quantity unspecified.",
+      "source_description": "Ensemble green; quantity unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "after-shower-cloth-1",
+    "kind": "item",
+    "section": "After shower cloth",
+    "source": "White; quantity unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "White; quantity unspecified",
+      "category": "after-shower",
+      "color": "white",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "White; quantity unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "after-shower-cloth-2",
+    "kind": "item",
+    "section": "After shower cloth",
+    "source": "Green; quantity unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Green; quantity unspecified",
+      "category": "after-shower",
+      "color": "green",
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Green; quantity unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "durags-and-bandanas-1",
+    "kind": "item",
+    "section": "Durags and bandanas",
+    "source": "Black, white, gray, burgundy, beige, gold, dark blue, sky blue, dark green, military green, brown.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Black, white, gray, burgundy, beige, gold, dark blue, sky blue, dark green, military green, brown",
+      "category": "headwear",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Black, white, gray, burgundy, beige, gold, dark blue, sky blue, dark green, military green, brown.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "durags-and-bandanas-2",
+    "kind": "item",
+    "section": "Durags and bandanas",
+    "source": "Quantities and assignment between durag/bandana are unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Quantities and assignment between durag/bandana are unspecified",
+      "category": "headwear",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Quantities and assignment between durag/bandana are unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Daily"
+      ]
+    }
+  },
+  {
+    "key": "fragrance-accessories-1",
+    "kind": "item",
+    "section": "Fragrance accessories",
+    "source": "Work perfume x1.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Work perfume x1",
+      "category": "fragrance",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Work perfume x1.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Work"
+      ]
+    }
+  },
+  {
+    "key": "fragrance-accessories-2",
+    "kind": "item",
+    "section": "Fragrance accessories",
+    "source": "Sport perfume x1.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Sport perfume x1",
+      "category": "fragrance",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Sport perfume x1.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Sport"
+      ]
+    }
+  },
+  {
+    "key": "fragrance-accessories-3",
+    "kind": "item",
+    "section": "Fragrance accessories",
+    "source": "Home eau de toilette x1, day and night.",
+    "warnings": [
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Home eau de toilette x1, day and night",
+      "category": "fragrance",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": 1,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Home eau de toilette x1, day and night.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": [
+        "Home"
+      ]
+    }
+  },
+  {
+    "key": "fragrance-accessories-4",
+    "kind": "item",
+    "section": "Fragrance accessories",
+    "source": "Others: collections, unspecified.",
+    "warnings": [
+      "Quantity is unspecified; review without inventing a count.",
+      "Quantity unit is unspecified."
+    ],
+    "item": {
+      "name": "Others: collections, unspecified",
+      "category": "fragrance",
+      "color": null,
+      "pattern": "unknown",
+      "attributes": [],
+      "brand": null,
+      "fit": null,
+      "subtype": null,
+      "quantity": null,
+      "quantity_unit": "unspecified",
+      "pack_count": null,
+      "pack_description": "",
+      "source_description": "Others: collections, unspecified.",
+      "review_notes": "",
+      "set_coverage": "unspecified",
+      "collections": []
+    }
+  }
+]

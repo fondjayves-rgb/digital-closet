@@ -1,0 +1,655 @@
+{
+  "assignment": "Workshop5.4 Step1 systematic feature testing",
+  "recordedAt": "2026-10-19T18:54:00.836Z",
+  "boundary": "Isolated Chrome network fixtures and PGlite/Express/schema tests. No hosted or paid provider operation; no manual UI pass claimed.",
+  "regression": {
+    "passed": true,
+    "total": 52,
+    "files": 4,
+    "stage": "Current baseline run before the two web-only fixes; API/database/shared code unchanged."
+  },
+  "reproductions": {
+    "beforeFix": {
+      "project": "desktop-chrome",
+      "total": 2,
+      "failed": 2,
+      "observations": [
+        "Collections payload empty after Enter without blur",
+        "Replacement mode persisted after target removal"
+      ]
+    },
+    "focusedRetest": {
+      "project": "desktop-chrome",
+      "total": 2,
+      "passed": 2
+    }
+  },
+  "browser": {
+    "passed": true,
+    "total": 64,
+    "failures": 0,
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "processExitCode": 0,
+    "checks": [
+      {
+        "name": "five destinations, dated curated sources, honest illustrations and inspiration retry",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "reviewed text inventory, upload attachment, favorite persistence and failed favorite recovery",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "manual builder selects replaces removes saves edits and retains wear history",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "provided wardrobe preview confirmation repeat safety and editable missing-component templates",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Settings persist optional gender style and occasion and prefill both builders",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "full inventory pagination metadata filters and clear controls remain usable",
+        "file": "features.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "five destinations, dated curated sources, honest illustrations and inspiration retry",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "reviewed text inventory, upload attachment, favorite persistence and failed favorite recovery",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "manual builder selects replaces removes saves edits and retains wear history",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "provided wardrobe preview confirmation repeat safety and editable missing-component templates",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Settings persist optional gender style and occasion and prefill both builders",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "full inventory pagination metadata filters and clear controls remain usable",
+        "file": "features.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "five destinations, dated curated sources, honest illustrations and inspiration retry",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "reviewed text inventory, upload attachment, favorite persistence and failed favorite recovery",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "manual builder selects replaces removes saves edits and retains wear history",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "provided wardrobe preview confirmation repeat safety and editable missing-component templates",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Settings persist optional gender style and occasion and prefill both builders",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "full inventory pagination metadata filters and clear controls remain usable",
+        "file": "features.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "five destinations, dated curated sources, honest illustrations and inspiration retry",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "reviewed text inventory, upload attachment, favorite persistence and failed favorite recovery",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "manual builder selects replaces removes saves edits and retains wear history",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "provided wardrobe preview confirmation repeat safety and editable missing-component templates",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Settings persist optional gender style and occasion and prefill both builders",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "full inventory pagination metadata filters and clear controls remain usable",
+        "file": "features.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "responsive closet, readable text, keyboard focus and dialog focus restoration",
+        "file": "quality.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "refresh shows progress and recovers unavailable photos",
+        "file": "quality.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "upload rejects replacement files and recovers from upload/status failures without losing edits",
+        "file": "quality.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "initial connection failure is distinct from an empty closet and has a working retry",
+        "file": "quality.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "empty screens, planner validation and outfit request retry are recoverable",
+        "file": "quality.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "responsive closet, readable text, keyboard focus and dialog focus restoration",
+        "file": "quality.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "refresh shows progress and recovers unavailable photos",
+        "file": "quality.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "upload rejects replacement files and recovers from upload/status failures without losing edits",
+        "file": "quality.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "initial connection failure is distinct from an empty closet and has a working retry",
+        "file": "quality.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "empty screens, planner validation and outfit request retry are recoverable",
+        "file": "quality.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "responsive closet, readable text, keyboard focus and dialog focus restoration",
+        "file": "quality.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "refresh shows progress and recovers unavailable photos",
+        "file": "quality.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "upload rejects replacement files and recovers from upload/status failures without losing edits",
+        "file": "quality.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "initial connection failure is distinct from an empty closet and has a working retry",
+        "file": "quality.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "empty screens, planner validation and outfit request retry are recoverable",
+        "file": "quality.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "responsive closet, readable text, keyboard focus and dialog focus restoration",
+        "file": "quality.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "refresh shows progress and recovers unavailable photos",
+        "file": "quality.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "upload rejects replacement files and recovers from upload/status failures without losing edits",
+        "file": "quality.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "initial connection failure is distinct from an empty closet and has a working retry",
+        "file": "quality.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "empty screens, planner validation and outfit request retry are recoverable",
+        "file": "quality.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "renders the account screen with a responsive layout and usable keyboard controls",
+        "file": "setup.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "never presents an unauthenticated closet as owned inventory",
+        "file": "setup.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "renders the account screen with a responsive layout and usable keyboard controls",
+        "file": "setup.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "never presents an unauthenticated closet as owned inventory",
+        "file": "setup.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "renders the account screen with a responsive layout and usable keyboard controls",
+        "file": "setup.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "never presents an unauthenticated closet as owned inventory",
+        "file": "setup.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "renders the account screen with a responsive layout and usable keyboard controls",
+        "file": "setup.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "never presents an unauthenticated closet as owned inventory",
+        "file": "setup.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "protected screens, filtering, upload review, planning, saving, wear history and sign-out",
+        "file": "wardrobe.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "protected screens, filtering, upload review, planning, saving, wear history and sign-out",
+        "file": "wardrobe.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "protected screens, filtering, upload review, planning, saving, wear history and sign-out",
+        "file": "wardrobe.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "protected screens, filtering, upload review, planning, saving, wear history and sign-out",
+        "file": "wardrobe.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop collections survive keyboard Enter submission without blurring the field",
+        "file": "workshop.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop removing a replacement target cancels replacement and permits another selection",
+        "file": "workshop.spec.ts",
+        "project": "desktop-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop collections survive keyboard Enter submission without blurring the field",
+        "file": "workshop.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop removing a replacement target cancels replacement and permits another selection",
+        "file": "workshop.spec.ts",
+        "project": "mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop collections survive keyboard Enter submission without blurring the field",
+        "file": "workshop.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop removing a replacement target cancels replacement and permits another selection",
+        "file": "workshop.spec.ts",
+        "project": "compact-mobile-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop collections survive keyboard Enter submission without blurring the field",
+        "file": "workshop.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      },
+      {
+        "name": "Workshop removing a replacement target cancels replacement and permits another selection",
+        "file": "workshop.spec.ts",
+        "project": "tablet-chrome",
+        "status": "expected",
+        "attempts": [
+          "passed"
+        ]
+      }
+    ]
+  },
+  "typecheck": {
+    "passed": true,
+    "processExitCode": 0
+  },
+  "productionBuild": {
+    "passed": true,
+    "processExitCode": 0,
+    "knownNonFailingWarnings": 2,
+    "warningSource": "Existing Zod Rollup annotation comments"
+  },
+  "providerOperations": {
+    "newLiveSupabaseChecks": 0,
+    "newOpenAICalls": 0,
+    "hostedMutations": 0,
+    "existingUserRecordsTouched": false
+  },
+  "manualUI": {
+    "performed": false,
+    "notes": "User inbox, controlled live expiry/provider tests, physical devices and assistive technology require separate execution."
+  },
+  "checklist": {
+    "cases": 284,
+    "statusCounts": {
+      "Passed": 108,
+      "Not tested": 167,
+      "Blocked": 9
+    },
+    "sourceInspection": "All eleven web JSX components plus lib/shared/API/worker and prior testing documentation inspected; repeated controls parameterized."
+  },
+  "auditIntegrity": {
+    "configuredPrivilegedKeyMatches": 0,
+    "filesScanned": 89,
+    "privilegedFrontend": false,
+    "documentsChecked": 13,
+    "brokenLocalLinks": 0,
+    "uniqueChecklistIds": 284,
+    "manualUiPassesClaimed": 0
+  }
+}

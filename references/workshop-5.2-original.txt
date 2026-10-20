@@ -1,0 +1,133 @@
+Project attribute	Revised specification
+Application name	Wardrobe App
+Company	LoopWear (fictional sustainable-fashion e-commerce retailer)
+Industry	E-commerce / Fashion Technology
+Application	AI-powered digital wardrobe and personal outfit planner
+Deployment target	AWS Elastic Beanstalk, subject to account eligibility
+Project status	Proposed; not yet implemented or deployed
+Part 1: New AI Use Case — Problem Framing
+369 words · Meets the required 300–400 words
+
+Company Context and Current Challenges
+
+LoopWear is a fictional circular-fashion e-commerce retailer that offers affordable everyday clothing and encourages customers to make better use of items they already own. Unlike my first application, HomeFlow, which focused on renter records and lease-related responsibilities, Wardrobe App addresses personal wardrobe organization and outfit planning. Shoppers may forget what is in their closets, buy similar garments unnecessarily, or spend too much time choosing outfits. For LoopWear, a useful wardrobe service could strengthen customer engagement without pushing purchases. These are business hypotheses that a pilot must validate.
+
+Specific Business Problem
+
+The central problem is that clothing information is fragmented between physical closets, shopping histories, camera galleries, and personal memory. Existing manual wardrobe catalogs require users to label every item, which can discourage consistent use. Wardrobe App will provide a private digital closet where users photograph garments, review AI-proposed labels, and request outfits using only clothing they actually own. It will not make purchases or claim to know a garment's size, material, or fit from an unclear image.
+
+Target Users and Their Needs
+
+The primary users are busy students, young professionals, and budget-conscious shoppers who want faster outfit decisions and better use of existing clothing. They need mobile-friendly uploading, searchable clothing categories, simple style preferences, occasion-based outfit ideas, and control over their photos. LoopWear's product team also needs aggregate, privacy-respecting evidence of whether users find the feature valuable; it will not see individual private wardrobes.
+
+Why AI Is the Right Solution
+
+AI is appropriate because image understanding can suggest clothing type and color, while a language model can explain combinations based on a user's preferences and confirmed inventory. However, AI will make proposals rather than decisions: users correct labels, and server-side rules verify that recommendations reference owned items. Conventional code handles authentication, ownership, data storage, filters, and saved outfits.
+
+Success Metrics and MVP Features
+
+The minimum viable product includes secure accounts, private garment-photo uploads, editable AI tags, wardrobe search and filters, three outfit suggestions per request, and a saved-outfit history. Proposed success targets are: at least 80% of 10 pilot testers complete photo upload, tag review, and outfit saving; at least 90% agreement on category and main color across 100 labeled test photos; 100% of suggested item IDs exist in that user's confirmed wardrobe; and zero unauthorized access in 50 cross-account tests. These are acceptance goals, not achieved results.
+
+Part 2: Detailed Full-Stack Technical Plan
+1. Application architecture
+Wardrobe App will use a layered architecture separating the client interface, authenticated API, persistent records, AI services, and cloud infrastructure.
+Frontend — React, TypeScript, Vite
+
+Digital closet • Photo uploads • Outfit suggestions • Dashboard
+
+AWS Elastic Beanstalk
+Application Load Balancer → EC2 Docker environmentNode.js + Express API
+Authentication • Authorization • Validation • Business rules
+
+
+Supabase
+Auth, PostgreSQL, private Storage
+
+OpenAI
+Image recognition and outfit generation
+
+SQS + Lambda
+Asynchronous AI image jobs and retry handling
+
+
+Security and operations
+
+IAM • AWS Secrets Manager • CloudWatch • GitHub Actions • ECR
+
+2. Technology stack
+Component	Technology	Purpose
+Frontend	React, TypeScript, Vite, Tailwind CSS	Responsive user interface
+Backend	Node.js, Express, TypeScript	API routes and server-side logic
+Validation	Zod	Check input and structured AI responses
+Authentication	Supabase Auth	Secure user accounts and sessions
+Database	Supabase PostgreSQL	Permanent wardrobe and outfit records
+Image storage	Supabase private Storage	Private clothing photographs
+AI integration	OpenAI Responses API	Garment classification and recommendations
+Background processing	Amazon SQS and AWS Lambda	Durable asynchronous image analysis
+Application hosting	AWS Elastic Beanstalk	Deploy and manage the containerized web application
+Container registry	Amazon ECR	Store tested Docker images
+CI/CD	GitHub Actions	Automated builds, tests and deployment
+Monitoring	Amazon CloudWatch	Logs, errors, performance and alerts
+3. Key features
+The five initial MVP feature groups are secure registration and sign-in, private clothing upload, reviewed AI garment recognition, searchable wardrobe inventory, and AI outfit generation with saving and wear history.
+
+For garment recognition, AI will propose a category, color, pattern, and supported descriptive attributes. Users must approve or correct these before the item becomes active. For recommendations, the backend will provide AI with eligible, confirmed garments and validate every returned clothing ID before displaying an outfit.
+4. Database structure
+Wardrobe App will use eight principal PostgreSQL tables.
+Table	Responsibility
+profiles	Personal preferences and settings
+wardrobe_items	Confirmed and draft garments
+ai_tag_jobs	Image-processing jobs and statuses
+tag_suggestions	AI-proposed descriptions awaiting review
+outfits	Saved outfit records
+outfit_items	Clothing assigned to each outfit
+wear_logs	User-confirmed outfit usage
+outfit_feedback	Ratings and feedback
+Every user-owned record will be protected by ownership rules and Row Level Security. Backend checks will also reject attempts to associate another user's clothing with an outfit.
+5. Backend API
+API endpoint	Function
+POST /api/items	Create a draft garment
+POST /api/items/:id/analyze	Queue AI recognition
+GET /api/jobs/:id	Get analysis status
+PATCH /api/items/:id/confirm	Confirm reviewed garment attributes
+GET /api/items	Fetch and filter wardrobe records
+POST /api/outfits/suggest	Generate outfit combinations
+POST /api/outfits	Save selected outfits
+POST /api/wear-logs	Record outfit usage
+6. AWS Elastic Beanstalk deployment strategy
+Elastic Beanstalk supports Docker-based web applications and manages the supporting AWS infrastructure. It does not have an additional service management fee, although underlying resources such as EC2 instances, load balancing, and storage are billed. Account permissions, quotas, and regional service availability will need to be confirmed. 
+
+AWS Elastic Beanstalk
++2
+
+
+
+
+The planned production deployment will work as follows:
+1. Build the React frontend and Express API into a versioned Docker image.
+2. Use GitHub Actions to run tests and push the image to Amazon ECR.
+3. Create an Elastic Beanstalk Docker environment on Amazon Linux 2023.
+4. Deploy the approved ECR image using a Dockerrun.aws.json v1 artifact and Elastic Beanstalk CLI.
+5. Configure an Application Load Balancer, Auto Scaling, HTTPS certificate, and /health checks for production.
+6. Store sensitive credentials in AWS Secrets Manager or Parameter Store with least-privilege access.
+7. Configure SQS and Lambda to process AI image-analysis jobs separately from the web server.
+8. Enable CloudWatch monitoring, deployment health checks, version rollback, and post-deployment testing.
+AWS supports the ECR image deployment and load-balancer HTTPS arrangements described above. 
+
+AWS Elastic Beanstalk
++2
+
+
+
+7. Lessons from HomeFlow
+HomeFlow's validation identified incomplete authentication, local persistence paths, unverified AI processing, and background tasks that did not yet have reliable scheduling infrastructure. HomeFlow_Assignment_1.4.docx
+
+
+Wardrobe App will address these gaps by making real sign-in, cross-account isolation, database persistence, truthful AI processing status, and successfully saved outfits mandatory acceptance requirements before any MVP feature is declared complete.
+8. Development roadmap
+Week	Development phase	Deliverable
+1	Foundation	Authentication, schema, private wardrobe CRUD
+2	AI integration	Photo uploads, Lambda processing, reviewed garment tags
+3	Core functionality	Search, outfit recommendations, saved outfits
+4	Testing and deployment	AWS Elastic Beanstalk environment, security tests, pilot feedback
+Cursor and Claude Code will assist with creating the React interface, API routes, SQL migrations, Docker configuration, and tests. Their generated code will be reviewed and validated through actual application behavior.

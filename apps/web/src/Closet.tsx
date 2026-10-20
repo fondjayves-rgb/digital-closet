@@ -1,0 +1,59 @@
+import { useEffect, useRef, useState, type FormEvent } from 'react';
+import { Search, Plus, ArrowUpRight, UploadCloud, ImagePlus, ArrowRight, Heart } from 'lucide-react';
+import { categories, MAX_UPLOAD_BYTES, imageTypes, type Garment } from '@wardrobe/shared';
+import { api, message } from './lib';
+import { Empty, Modal, GarmentPhoto, Spinner } from './ui';
+export function UploadDialog({ onClose, onUploaded, item }: { onClose(): void; onUploaded(item: Garment): void; item?:Garment }) {
+  const [file, setFile] = useState<File | null>(null); const [error, setError] = useState(''); const [busy, setBusy] = useState(false); const [preview, setPreview] = useState('');
+  useEffect(() => {
+    if (!file) { setPreview(''); return; }
+    const url = URL.createObjectURL(file); setPreview(url);
+    return () => URL.revokeObjectURL(url);
+  }, [file]);
+  function invalidPhoto(text: string) { setFile(null); setPreview(''); setError(text); }
+  function choose(next?: File) {
+    if (busy) return;
+    setError('');
+    if (!next) return;
+    if (!(imageTypes as readonly string[]).includes(next.type)) { invalidPhoto('Choose a JPEG, PNG, or WebP photo.'); return; }
+    if (!next.size) { invalidPhoto('This file is empty. Choose a garment photo.'); return; }
+    if (next.size > MAX_UPLOAD_BYTES) { invalidPhoto('Choose a photo 8 MB or smaller.'); return; }
+    setFile(next);
+  }
+  async function submit(event: FormEvent) {
+    event.preventDefault(); if (!file) { setError('Choose a garment photo first.'); return; }
+    setError(''); setBusy(true);
+    try { const form = new FormData(); form.append('photo',file); onUploaded(await api<Garment>(item ? `/items/${item.id}/photo` : '/items', { method: 'POST', body: form })); }
+    catch (err) { setError(message(err)); } finally { setBusy(false); }
+  }
+  return <Modal title={item ? `Add photo: ${item.name}` : 'Every piece has potential.'} subtitle={item ? 'Attach a private photo to this existing record. Reviewed details stay yours.' : 'Add one garment at a time. We’ll help with the details.'} onClose={onClose}><form onSubmit={submit} aria-busy={busy}><div className="upload-zone" onDragOver={e => e.preventDefault()} onDrop={e => { e.preventDefault(); if (busy) return; if (e.dataTransfer.files.length !== 1) { invalidPhoto('Choose one garment photo at a time.'); return; } choose(e.dataTransfer.files[0]); }}>
+    {preview ? <img src={preview} alt="Selected garment preview"/> : <><UploadCloud size={36} strokeWidth={1.2}/><h3>A fresh photo or an old favorite.</h3><p>Drop your garment photo here</p></>}
+    <label className="button secondary file-label"><ImagePlus size={16}/>{file ? 'Choose a different photo' : 'Choose a photo'}<input type="file" aria-label="Garment photo" aria-describedby={error ? 'upload-help upload-error' : 'upload-help'} aria-invalid={Boolean(error)} accept={imageTypes.join(',')} onChange={e => choose(e.target.files?.[0])} disabled={busy}/></label><p id="upload-help" className="small muted">JPEG, PNG or WebP · Up to 8 MB</p></div>
+    <div className="photo-tips"><p><strong>A little tip for a clearer closet</strong></p><p>Lay the garment flat or use a hanger. A simple background and good light help the details shine.</p></div>
+    {file && <p className="small muted selected-file">{file.name}</p>}{error && <p id="upload-error" className="error" role="alert">{error}</p>}<button className="button primary full" disabled={busy || !file}>{busy ? 'Uploading privately…' : 'Upload & review'}<ArrowRight size={17}/></button><p className="small muted centered">Your photo stays private. You always approve the tags.</p></form></Modal>;
+}
+export function Closet({items,onAdd,onSelect,onManual,onImport,onPhoto,onFavorite,favoritesOnly=false,updated=true}:{items:Garment[];onAdd():void;onSelect(item:Garment):void;onManual():void;onImport():void;onPhoto(item:Garment):void;onFavorite(item:Garment):Promise<void>;favoritesOnly?:boolean;updated?:boolean}) {
+  const [search,setSearch]=useState(''); const [category,setCategory]=useState(''); const [status,setStatus]=useState(''); const [sort,setSort]=useState('newest');
+  const [filters,setFilters]=useState({brand:'',color:'',fit:'',subtype:'',collection:'',favorite:favoritesOnly?'true':''});
+  const [visible,setVisible]=useState<Garment[]>([]);const [total,setTotal]=useState(0); const [next,setNext]=useState<number|null>(null);const [busy,setBusy]=useState(true);const [error,setError]=useState('');const [revision,setRevision]=useState(0);const [favoriteBusy,setFavoriteBusy]=useState<Set<string>>(()=>new Set());const generation=useRef(0);
+  const params=()=>{const q=new URLSearchParams({limit:'100',sort});for(const [key,value] of Object.entries({...filters,q:search,category,status})) if(value)q.set(key,value);return q;};
+  useEffect(()=>{const current=++generation.current;setBusy(true);const timer=setTimeout(()=>{void api<{items:Garment[];total:number;nextOffset:number|null}>(`/items?${params()}`).then(data=>{if(current!==generation.current)return;setVisible(data.items);setTotal(data.total ?? data.items.length);setNext(data.nextOffset ?? null);setError('');}).catch(err=>{if(current===generation.current)setError(message(err));}).finally(()=>{if(current===generation.current)setBusy(false);});},120);return()=>{clearTimeout(timer);generation.current++;};},[search,category,status,sort,filters,items,revision]);
+  async function more(){setBusy(true);const current=generation.current;try{const q=params();q.set('offset',String(next));const data=await api<{items:Garment[];nextOffset:number|null}>(`/items?${q}`);if(current!==generation.current)return;setVisible(v=>[...v,...data.items]);setNext(data.nextOffset);setError('');}catch(err){if(current===generation.current)setError(message(err));}finally{if(current===generation.current)setBusy(false);}}
+  async function favorite(item:Garment){setFavoriteBusy(v=>new Set(v).add(item.id));setError('');try{await onFavorite(item);}catch(err){setError(message(err));}finally{setFavoriteBusy(v=>{const next=new Set(v);next.delete(item.id);return next;});}}
+  const options=(key:'brand'|'color'|'fit'|'subtype'|'collection')=>[...new Set(items.flatMap(i=>key==='collection'?i.collections || []:i[key]?[i[key]!]:[]))].sort();
+  const known=items.filter(i=>i.quantity != null);const unknown=items.length-known.length;
+  const unitTotals=known.reduce<Record<string,number>>((a,i)=>{const unit=i.quantity_unit || 'unspecified';a[unit]=(a[unit]||0)+i.quantity!;return a;},{});
+  const clear=()=>{setSearch('');setCategory('');setStatus('');setFilters({brand:'',color:'',fit:'',subtype:'',collection:'',favorite:favoritesOnly?'true':''});};
+  return <><div className="page-heading"><div><p className="eyebrow">YOUR WARDROBE, CONSIDERED</p><h1>{favoritesOnly?'Favorites':'My closet'}<span className="heading-dot">.</span></h1><p className="muted">{favoritesOnly?'Only the wardrobe items you have favorited.':'Photos and reviewed text entries, together in one private space.'}</p></div><button className="button primary" onClick={onAdd}><Plus size={18}/> Add a garment</button></div>
+    {!favoritesOnly&&<div className="button-row inventory-actions"><button className="button secondary" onClick={onManual} disabled={!updated}>Add without photo</button><button className="button secondary" onClick={onImport} disabled={!updated}>Review provided wardrobe</button></div>}
+    {!favoritesOnly&&<p className="soft-note">{items.length} inventory records · {unknown} with unknown quantities. Known quantities: {Object.entries(unitTotals).map(([u,n])=>`${n} ${u==='unspecified'?'units unspecified':u}`).join(', ') || 'none yet'}. These are reported quantities, not a definitive wardrobe total; collections may overlap.</p>}
+    {items.some(i=>i.status==='pending')&&!favoritesOnly&&<button className="review-banner" onClick={()=>{clear();setStatus('pending');}}><strong>Review pending pieces</strong><span>Only reviewed items can be used in outfits.</span></button>}
+    <div className="category-tabs" aria-label="Clothing category">{['',...categories].map(c=><button key={c} aria-pressed={category===c} className={category===c?'active':''} onClick={()=>setCategory(c)}>{c||'All pieces'}</button>)}</div>
+    <div className="closet-toolbar"><label className="search-field"><Search size={18}/><input aria-label="Search your closet" value={search} maxLength={100} onChange={e=>setSearch(e.target.value)} placeholder="Find that favorite piece…"/></label><div className="toolbar-selects"><label><span className="sr-only">Review status</span><select value={status} onChange={e=>setStatus(e.target.value)}><option value="">All statuses</option><option value="confirmed">Reviewed</option><option value="pending">Needs review</option></select></label><label><span className="sr-only">Sort garments</span><select value={sort} onChange={e=>setSort(e.target.value)}><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="name">Name A–Z</option></select></label></div></div>
+    <div className="inventory-filters">{(['brand','color','fit','subtype','collection'] as const).map(key=><label key={key}>{key[0].toUpperCase()+key.slice(1)}<select aria-label={key[0].toUpperCase()+key.slice(1)} value={filters[key]} onChange={e=>setFilters(v=>({...v,[key]:e.target.value}))}><option value="">All {key}s</option>{options(key).map(v=><option key={v}>{v}</option>)}</select></label>)}{!favoritesOnly&&<label className="check-label"><input type="checkbox" checked={filters.favorite==='true'} onChange={e=>setFilters(v=>({...v,favorite:e.target.checked?'true':''}))}/>Favorites only</label>}<button className="text-button" onClick={clear}>Clear filters</button></div>
+    <div className="grid-caption"><span role="status">{total} {total===1?'record':'records'}{busy?' · Loading…':''}</span><span>Entirely yours.</span></div>
+    {error&&<div className="error" role="alert">{error}<button className="text-button" onClick={()=>setRevision(v=>v+1)}>Retry inventory</button></div>}
+    {busy&&!visible.length?<Spinner text="Loading inventory…"/>:visible.length?<div className="garment-grid">{visible.map(item=><article className="garment-card" key={item.id}><button className="garment-open" onClick={()=>onSelect(item)} aria-label={`Review ${item.name}`}><div className="garment-photo"><GarmentPhoto item={item}/>{item.status==='pending'&&<span className="review-chip">Needs review</span>}<span className="card-arrow"><ArrowUpRight size={17}/></span></div><div className="garment-copy"><p className="eyebrow">{item.category||'READY FOR REVIEW'}</p><h3>{item.name}</h3><p>{item.brand||'Brand unspecified'} · {item.color||'Color unspecified'}</p><p>{item.quantity == null?'Quantity unknown':`${item.quantity} ${item.quantity_unit||'units unspecified'}`}</p></div></button><div className="item-actions"><button className="icon-button favorite-toggle" aria-label={`${item.is_favorite?'Unfavorite':'Favorite'} ${item.name}`} aria-pressed={Boolean(item.is_favorite)} disabled={!updated||favoriteBusy.has(item.id)} onClick={()=>void favorite(item)}><Heart size={18} fill={item.is_favorite?'currentColor':'none'}/></button>{!item.photo_path&&<button className="text-button" onClick={()=>onPhoto(item)} disabled={!updated}>Add photo</button>}</div></article>)}</div>:!error&&<Empty title={favoritesOnly?'Your favorites will feel right at home here.':items.length?'No pieces here just yet.':'Your next favorite outfit is already in your closet.'} action={<button className="button primary" onClick={items.length?clear:onAdd}>{items.length?'Clear filters':'Add your first garment'}</button>}>{favoritesOnly?'Favorite an item in My Closet to find it here.':'Add an item, or try different filters.'}</Empty>}
+    {next!==null&&<button className="button secondary load-more" onClick={()=>void more()} disabled={busy}>Load more items</button>}
+  </>;
+}
