@@ -18,7 +18,9 @@
     "test": "vitest run",
     "test:live": "tsx --env-file-if-exists=apps/api/.env tests/live.ts",
     "test:browser": "playwright test",
-    "db:cli": "supabase"
+    "db:cli": "supabase",
+    "start": "node --env-file-if-exists=apps/api/.env apps/api/dist/apps/api/src/server.js",
+    "start:worker": "node --env-file-if-exists=apps/api/.env apps/api/dist/apps/api/src/worker.js"
   },
   "devDependencies": {
     "@electric-sql/pglite": "^0.3.14",

@@ -1,3 +1,4 @@
+import { resolve } from 'node:path';
 import express, { type Request, type Response, type NextFunction } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
@@ -38,7 +39,28 @@ export function createApp(overrides: Partial<Dependencies> = {}) {
   };
   const app = express();
   app.disable('x-powered-by');
-  app.use(helmet());
+  app.set('trust proxy', 'loopback');
+  const supabaseOrigin = config.supabaseUrl
+    ? new URL(config.supabaseUrl).origin
+    : '';
+
+  app.use(helmet({
+    contentSecurityPolicy: {
+      directives: {
+        connectSrc: [
+          "'self'",
+          ...(supabaseOrigin
+            ? [supabaseOrigin, supabaseOrigin.replace(/^http/, 'ws')]
+            : []),
+        ],
+        imgSrc: [
+          "'self'", 'data:', 'blob:',
+          ...(supabaseOrigin ? [supabaseOrigin] : []),
+        ],
+        upgradeInsecureRequests: null,
+      },
+    },
+  }));
   app.use(cors({ origin: config.webOrigin, methods: ['GET','POST','PATCH','DELETE'], allowedHeaders: ['Authorization','Content-Type'] }));
   app.use(express.json({ limit: '32kb' }));
   app.use((_req, res, next) => { res.set('Cache-Control', 'no-store'); next(); });
@@ -198,6 +220,18 @@ export function createApp(overrides: Partial<Dependencies> = {}) {
     requireResult(await res.locals.db.from('wear_logs').delete().eq('id', uuid(req.params.id)).eq('user_id', res.locals.userId).select('id').single());
     res.status(204).end();
   });
+  if (process.env.NODE_ENV === 'production') {
+    const webDist = resolve(process.cwd(), 'apps/web/dist');
+    app.use(express.static(webDist));
+
+    app.get('/{*path}', (req, res, next) => {
+      if (req.path === '/api' || req.path.startsWith('/api/')) {
+        next();
+        return;
+      }
+      res.sendFile(resolve(webDist, 'index.html'));
+    });
+  }
   app.use((_req, _res, next) => next(new HttpError(404, 'API route not found.')));
   app.use((error: unknown, _req: Request, res: Response, _next: NextFunction) => {
     if (error instanceof ZodError) { res.status(400).json({ error: 'Check the form fields.', details: error.issues.map(i => `${i.path.join('.')}: ${i.message}`) }); return; }
